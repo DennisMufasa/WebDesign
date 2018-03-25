@@ -1,0 +1,20 @@
+body#classBody{
+    color: #c0a16b;
+}
+
+.heading{
+    width: 960px;
+    margin: 0 auto;
+    color: red;
+    border-bottom: solid black;
+}
+
+.container1{
+    width: 960px;
+    margin: 0 auto;
+}
+.container1 h2{
+    color: gold;
+    margin-left: 400px;
+
+}

@@ -1,0 +1,20 @@
+body{
+    background: wheat;
+}
+h1{
+    color: red;
+    font-style: italic;
+    font-family: cursive;
+}
+legend{
+    color: red;
+    font-style: oblique;
+    font-size: 25px;
+}
+label{
+    color: blue;
+    font-style: italic;
+    font-family: cursive;
+}
+
+

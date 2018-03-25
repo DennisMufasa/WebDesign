@@ -1,0 +1,42 @@
+body#classID{
+    background-color: wheat;
+}
+h1#heading{
+    color: red;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.form{
+
+    border: solid 10px;
+    width:600px ;
+    margin-left: 450px;
+}
+.form legend{
+    color: blue;
+}
+.form label{
+    color: crimson;
+    margin-left: 250px;
+
+}
+.table{
+    border: solid 10px gray;
+}
+.form input{
+    width: 450px;
+    margin-left: 55px;
+}
+.clear{
+    clear: both;
+}
+
+#save,#remove{
+    width: 100px;
+}
+
+#steerR,#steerL{
+    width: 200px;
+    margin-left: 200px;
+}

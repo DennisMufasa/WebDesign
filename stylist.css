@@ -1,0 +1,25 @@
+body{
+    border: solid gold 10px;
+    background: black;
+}
+h1{
+    color: silver;
+    font-size: 50px;
+    font-family: cursive;
+}
+p{
+    color: silver;
+    font-family: cursive;
+    font-size: 20px;
+}
+ul{
+    color: silver;
+    font-family: cursive;
+    font-size: 20px;
+    font-style: oblique;
+}
+ol{
+    color: silver;
+    font-family: cursive;
+    font-size: 20px;
+}

@@ -1,0 +1,54 @@
+body#idClass{
+    background: bisque;
+}
+#mainTitle{
+    color: silver;
+    margin: 15px;
+    padding: 10px;
+    background-color: beige ;
+}
+.content{
+    color: blue;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+/*Descendants styling*/
+
+.primary-box{
+    background-color: white;
+    border: solid 10px #333;
+    padding: 10px;
+    margin: 10px;
+}
+.secondar-box{
+    background-color: black;
+    color: #fff;
+    border: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.secondar-box em{
+    color: red;
+}
+.secondar-box p em{
+    color: blue;
+}
+
+/*Grouping*/
+
+.primary-box,.secondar-box{
+    margin: 30px 20px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    border-bottom: solid 2px red;
+    padding: 0 0 10px;
+}
+
+#mainContainer{
+    width: 960px;
+    margin: 0 auto;
+}

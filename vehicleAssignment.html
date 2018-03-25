@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vehicle Assignment</title>
+    <link rel="stylesheet"
+          type="text/css"
+          href="cars.css">
+
+</head>
+<body id="classID">
+
+    <h1 id="heading">Vehicle Registration</h1>
+    <div class="form">
+        <form>
+            <fieldset>
+             <legend>
+                Vehicle Info
+             </legend>
+
+              <label for="plate">Number Plate</label> <br>
+              <input type="text" id="plate" placeholder="eg. KAA">
+             <br><br>
+             <label for="make">Vehicle Make</label> <br>
+             <input type="text" id="make" placeholder="eg.toyota">
+             <br><br>
+             <label for="model">Vehicle Model</label> <br>
+                <input type="text" id="model" placeholder="eg. forester">
+             <br><br>
+                <label for="year">Year of Manufucture</label> <br>
+             <input type="number"  id="year" min="1900" max="2100">
+             <br><br>
+                <label >Steering Wheel</label>
+             <br>
+            <input type="radio" name="steer" id="steerR" >Right Hand Drive
+            <input type="radio" name="steer" id="steerL">Left Hand Drive
+            <br><br>
+            <label for="price">Price</label> <br>
+            <input type="number" id="price" max="1000000" min="12000">
+            <br><br>
+            <label for="colour">Colour</label> <br>
+            <input type="color" id="colour">
+            <br><br>
+            <label for="Date">Date of Manufucture</label> <br>
+            <input type="date" id="Date">
+            <br> <br>
+            <input type="submit" value="Save" id="save">
+            <input type="reset" value="Remove" id="remove">
+        </fieldset>
+    </form>
+
+</div>
+    <br><br>
+<div class="table">
+    <table>
+        <tr>
+            <th>Plate Number</th>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Year of Manufucture</th>
+            <th>Steering Wheel Position</th>
+            <th>Price</th>
+            <th>Colour</th>
+            <th>Date of Manufucture</th>
+        </tr>
+        <tr>
+            <td>KBD</td>
+            <td>Subaru</td>
+            <td>Forester</td>
+            <td>2004</td>
+            <td>Left hand drive</td>
+            <td>12000</td>
+            <td>Black</td>
+            <td>2003-8-10</td>
+        </tr>
+
+        <tr>
+            <td>KAZ</td>
+            <td>Toyota</td>
+            <td>Corolla</td>
+            <td>2004</td>
+            <td>Right hand drive</td>
+            <td>9000</td>
+            <td>Grey</td>
+            <td>2006-7-12</td>
+        </tr>
+
+        <tr>
+            <td>KAS</td>
+            <td>Range Rover</td>
+            <td>Sports</td>
+            <td>2016</td>
+            <td>Right hand drive</td>
+            <td>20000</td>
+            <td>White</td>
+            <td>2015-7-12</td>
+        </tr>
+
+        <tr>
+            <td>KCA</td>
+            <td>Porsche</td>
+            <td>Cayen</td>
+            <td>2010</td>
+            <td>Left hand drive</td>
+            <td>40000</td>
+            <td>Silver</td>
+            <td>2009-6-18</td>
+        </tr>
+
+
+    </table>
+
+
+</div>
+
+</body>
+</html>

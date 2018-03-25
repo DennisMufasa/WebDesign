@@ -1,0 +1,36 @@
+.box{
+background-color: white;
+    border: solid 10px #333;
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    line-height: 150px;
+}
+
+#container{
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    height: 2000px;
+
+}
+
+
+#relative{
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+#absolute{
+    position: absolute;
+    top: 400px;
+    left: 400px;
+
+}
+#fixed{
+    position: fixed;
+    right: 100px;
+    top: 100px;
+}
